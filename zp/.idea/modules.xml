@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://H:/code/python/20170829/.idea/20170829.iml" filepath="H:/code/python/20170829/.idea/20170829.iml" />
+      <module fileurl="file://H:/code/python/rnn/.idea/rnn.iml" filepath="H:/code/python/rnn/.idea/rnn.iml" />
+      <module fileurl="file://H:/code/python/zlzp/.idea/zlzp.iml" filepath="H:/code/python/zlzp/.idea/zlzp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zp.iml" filepath="$PROJECT_DIR$/.idea/zp.iml" />
+    </modules>
+  </component>
+</project>

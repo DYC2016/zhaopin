@@ -1,0 +1,23 @@
+{% include 'admin/header.html' %}
+<div class="layui-body site-demo">
+    {% block content %}
+        <div class="layadmin-tabsbody-item layui-show">
+        <div class="layui-card layadmin-header" style="display: block">
+            <div class="layui-breadcrumb" lay-filter="breadcrumb" style="visibility: initial">
+                <a href="{{ url_for('admin_index') }}" lay-href="">主页</a><span lay-separator="">/</span>
+                <a><cite>{{ title }}</cite></a>
+            </div>
+        </div>
+    {% endblock %}
+    </div>
+    {% include 'admin/footer.html' %}
+    {% block script %}
+        <script>
+            layui.use(['jquery', 'layer', 'element', 'carousel'], function () {
+                var $ = layui.jquery,
+                    element = layui.element,
+                    layer = layui.layer, carousel = layui.carousel;
+                layer.msg('欢迎使用职位画像后台管理系统', {icon: 6, time: 1000});
+            });
+        </script>
+    {% endblock %}

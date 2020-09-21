@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="aa">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="aicao"/>
+    <schema id="4" parent="1" name="boardroom"/>
+    <schema id="5" parent="1" name="db1"/>
+    <schema id="6" parent="1" name="demo1"/>
+    <schema id="7" parent="1" name="democms"/>
+    <schema id="8" parent="1" name="ecshop"/>
+    <schema id="9" parent="1" name="edmac"/>
+    <schema id="10" parent="1" name="game"/>
+    <schema id="11" parent="1" name="handdb"/>
+    <schema id="12" parent="1" name="hao123"/>
+    <schema id="13" parent="1" name="house"/>
+    <schema id="14" parent="1" name="iidvd"/>
+    <schema id="15" parent="1" name="information_schema"/>
+    <schema id="16" parent="1" name="item"/>
+    <schema id="17" parent="1" name="mis"/>
+    <schema id="18" parent="1" name="myproject"/>
+    <schema id="19" parent="1" name="myshop"/>
+    <schema id="20" parent="1" name="mysite"/>
+    <schema id="21" parent="1" name="mysql"/>
+    <schema id="22" parent="1" name="ocj"/>
+    <schema id="23" parent="1" name="performance_schema"/>
+    <schema id="24" parent="1" name="real_pro"/>
+    <schema id="25" parent="1" name="spider"/>
+    <schema id="26" parent="1" name="student"/>
+    <schema id="27" parent="1" name="test"/>
+    <schema id="28" parent="1" name="test1"/>
+    <schema id="29" parent="1" name="test2"/>
+    <schema id="30" parent="1" name="testguest"/>
+    <schema id="31" parent="1" name="train"/>
+    <schema id="32" parent="1" name="txl"/>
+    <schema id="33" parent="1" name="usedcar"/>
+    <schema id="34" parent="1" name="users"/>
+    <schema id="35" parent="1" name="zlzp"/>
+    <schema id="36" parent="1" name="底部"/>
+    <schema id="37" parent="1" name="zp">
+      <Visible>1</Visible>
+    </schema>
+  </database-model>
+</dataSource>

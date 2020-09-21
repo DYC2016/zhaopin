@@ -1,0 +1,239 @@
+{% extends "admin/base.html" %}
+
+{% block content %}
+    <div class="layadmin-tabsbody-item layui-show">
+        <div class="layui-fluid">
+            <div class="layui-row layui-col-space15">
+                <div class="layui-col-md12">
+                    <div class="layui-row layui-col-space15">
+                        <div class="layui-col-md6">
+                            <div class="layui-card">
+                                <div class="layui-card-header">快捷方式</div>
+                                <div class="layui-card-body">
+
+                                    <div class="layui-carousel layadmin-carousel layadmin-shortcut" lay-anim=""
+                                         lay-indicator="inside" lay-arrow="none" style="width: 100%; height: 280px;">
+                                        <div carousel-item="">
+                                            <ul class="layui-row layui-col-space10 layui-this">
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_dd') }}"
+                                                       lay-href="{{ url_for('admin_dd') }}">
+                                                        <i class="layui-icon layui-icon-website"></i>
+                                                        <cite>城市</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_gshy') }}"
+                                                       lay-href="{{ url_for('admin_gshy') }}">
+                                                        <i class="layui-icon layui-icon-find-fill"></i>
+                                                        <cite>公司行业</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_gsgm') }}"
+                                                       lay-href="{{ url_for('admin_gsgm') }}">
+                                                        <i class="layui-icon layui-icon-template-1"></i>
+                                                        <cite>公司规模</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_gsxz') }}"
+                                                       lay-href="{{ url_for('admin_gsxz') }}">
+                                                        <i class="layui-icon layui-icon-chat"></i>
+                                                        <cite>公司性质</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_xl') }}"
+                                                       lay-href="{{ url_for('admin_xl') }}">
+                                                        <i class="layui-icon layui-icon-read"></i>
+                                                        <cite>学历</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_zwmc') }}"
+                                                       lay-href="{{ url_for('admin_zwmc') }}">
+                                                        <i class="layui-icon layui-icon-tree"></i>
+                                                        <cite>职位名称</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_zwlb') }}"
+                                                       lay-href="{{ url_for('admin_zwlb') }}">
+                                                        <i class="layui-icon layui-icon-set"></i>
+                                                        <cite>职位类别</cite>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs3">
+                                                    <a href="{{ url_for('admin_zwlb_big') }}"
+                                                       lay-href="{{ url_for('admin_zwlb_big') }}">
+                                                        <i class="layui-icon layui-icon-password"></i>
+                                                        <cite>职位大类别</cite>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-col-md6">
+                            <div class="layui-card">
+                                <div class="layui-card-header">待办事项</div>
+                                <div class="layui-card-body">
+
+                                    <div class="layui-carousel layadmin-carousel layadmin-backlog" lay-anim=""
+                                         lay-indicator="inside" lay-arrow="none" style="width: 100%; height: 280px;">
+                                        <div carousel-item="">
+                                            <ul class="layui-row layui-col-space10 layui-this">
+                                                <li class="layui-col-xs6">
+                                                    <a lay-href="" class="layadmin-backlog-body">
+                                                        <h3>职位总量</h3>
+                                                        <p><cite>{{ total_zw_num }}</cite></p>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs6">
+                                                    <a lay-href="" class="layadmin-backlog-body">
+                                                        <h3>近三日职位总量</h3>
+                                                        <p><cite>{{ total_zw_num_three_day }}</cite></p>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs6">
+                                                    <a lay-href="" class="layadmin-backlog-body">
+                                                        <h3>近一周职位总量</h3>
+                                                        <p><cite>{{ total_zw_num_by_week }}</cite></p>
+                                                    </a>
+                                                </li>
+                                                <li class="layui-col-xs6">
+                                                    <a lay-href="" class="layadmin-backlog-body">
+                                                        <h3>近一个月职位总量</h3>
+                                                        <p><cite>{{ total_zw_num_by_month }}</cite></p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-col-md12">
+                            <div class="layui-card">
+                                <div class="layui-card-header">每日新增职位量概览</div>
+                                <div class="layui-card-body">
+                                    <div class="layadmin-dataview" data-anim="fade" lay-filter="LAY-index-dataview"
+                                         id="LAY-index-dataview">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block script %}
+    <script src="/static/echarts.min.js"></script>
+    {{ super() }}
+    <script>
+        layui.use(['jquery', 'layer'], function () {
+            var $ = layui.jquery, layer = layui.layer;
+            var index = layer.load(3);
+            var myChart = echarts.init(document.getElementById('LAY-index-dataview'));
+            $('.layui-nav-item').removeClass('layui-this');
+            $('#admin_index').addClass('layui-this');
+            $.getJSON('{{ url_for('admin_get_zw_count_by_date') }}', function (data) {
+                layer.close(index);
+                myChart.setOption(option = {
+                    tooltip: {
+                        trigger: 'axis'
+                    },
+                    xAxis: {
+                        data: data.zw_list.map(function (item) {
+                            return item[0];
+                        })
+                    },
+                    yAxis: {
+                        splitLine: {
+                            show: false
+                        }
+                    },
+                    toolbox: {
+                        left: 'center',
+                        feature: {
+                            dataZoom: {
+                                yAxisIndex: 'none'
+                            },
+                            restore: {},
+                            saveAsImage: {}
+                        }
+                    },
+                    dataZoom: [{
+                        startValue: data.startValue
+                    }, {
+                        type: 'inside'
+                    }],
+                    visualMap: {
+                        bottom: 0,
+                        right: 0,
+                        pieces: [{
+                            gt: 0,
+                            lte: 20000,
+                            color: '#096',
+                            label: '0~2w'
+                        }, {
+                            gt: 20000,
+                            lte: 40000,
+                            color: '#ffde33',
+                            label: '2w~4w'
+                        }, {
+                            gt: 40000,
+                            lte: 60000,
+                            color: '#ff9933',
+                            label: '4w~6w'
+                        }, {
+                            gt: 60000,
+                            lte: 80000,
+                            color: '#cc0033',
+                            label: '6w~8w'
+                        }, {
+                            gt: 80000,
+                            lte: 100000,
+                            color: '#660099',
+                            label: '8w~10w'
+                        }, {
+                            gt: 100000,
+                            color: '#7e0023',
+                            label: '>10w'
+                        }],
+                        outOfRange: {
+                            color: '#999'
+                        }
+                    },
+                    series: {
+                        name: '职位量',
+                        type: 'line',
+                        data: data.zw_list.map(function (item) {
+                            return item[1];
+                        }),
+                        markLine: {
+                            silent: true,
+                            data: [{
+                                yAxis: 20000, name: '2w'
+                            }, {
+                                yAxis: 40000, name: '4w'
+                            }, {
+                                yAxis: 60000, name: '6w'
+                            }, {
+                                yAxis: 80000, name: '8w'
+                            }, {
+                                yAxis: 100000, name: '10w'
+                            }]
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+{% endblock %}

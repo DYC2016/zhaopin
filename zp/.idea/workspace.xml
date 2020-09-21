@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5ebe2f0-f12b-47fb-96dd-8042fac36110" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zp$1.coverage" NAME="1 Coverage Results" MODIFIED="1504079435220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/code/python/20170829" />
+    <SUITE FILE_PATH="coverage/zp$onlyNumber.coverage" NAME="onlyNumber Coverage Results" MODIFIED="1503840546015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/code/python/rnn/YZMproject" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="zp1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zp/spiders/zp1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="103" column="85" lean-forward="false" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zp2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zp/spiders/zp2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding>
+                <element signature="e#20#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zp/MyPipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="196" column="17" lean-forward="false" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+                <marker date="1504143263765" expanded="true" signature="3332:3368" ph="select * fro... zp_dd" />
+                <marker date="1504143263765" expanded="true" signature="3543:3576" ph="insert into zp_dd... " />
+                <marker date="1504143263765" expanded="true" signature="3623:3659" ph="select * fro... zp_dd" />
+                <marker date="1504143263765" expanded="true" signature="3797:3837" ph="select * fro... zp_zwmc" />
+                <marker date="1504143263765" expanded="true" signature="4009:4044" ph="insert into zp_zwmc... " />
+                <marker date="1504143263765" expanded="true" signature="4091:4131" ph="select * fro... zp_zwmc" />
+                <marker date="1504143263765" expanded="true" signature="4276:4290" ph="select * fro... ca_gsmc" />
+                <marker date="1504143263765" expanded="true" signature="4276:4316" ph="select * fro... zp_gsmc" />
+                <marker date="1504143263765" expanded="true" signature="4477:4512" ph="insert into zp_gsmc... " />
+                <marker date="1504143263765" expanded="true" signature="4559:4599" ph="select * fro... zp_gsmc" />
+                <marker date="1504143263765" expanded="true" signature="4745:4785" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="4946:4983" ph="insert into zp_zwlb... " />
+                <marker date="1504143263765" expanded="true" signature="5030:5070" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="5215:5232" ph="select * fro... zp_g" />
+                <marker date="1504143263765" expanded="true" signature="5215:5255" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="5416:5453" ph="insert into zp_zwlb... " />
+                <marker date="1504143263765" expanded="true" signature="5500:5540" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="5685:5702" ph="select * fro... zp_g" />
+                <marker date="1504143263765" expanded="true" signature="5685:5725" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="5886:5923" ph="insert into zp_zwlb... " />
+                <marker date="1504143263765" expanded="true" signature="5970:6010" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="6155:6195" ph="select * fro... zp_gsxz" />
+                <marker date="1504143263765" expanded="true" signature="6356:6393" ph="insert into zp_zwlb... " />
+                <marker date="1504143263765" expanded="true" signature="6440:6480" ph="select * fro... zp_zwlb" />
+                <marker date="1504143263765" expanded="true" signature="6623:6659" ph="select * fro... zp_xl" />
+                <marker date="1504143263765" expanded="true" signature="6812:6847" ph="insert into zp_xl... " />
+                <marker date="1504143263765" expanded="true" signature="6894:6930" ph="select * fro... zp_xl" />
+                <marker date="1504143263765" expanded="true" signature="7070:7087" ph="select * fro... zp_g" />
+                <marker date="1504143263765" expanded="true" signature="7070:7110" ph="select * fro... zp_xl" />
+                <marker date="1504143263765" expanded="true" signature="7266:7303" ph="insert into zp_gsgm... " />
+                <marker date="1504143263765" expanded="true" signature="7350:7390" ph="select * fro... zp_gsgm" />
+                <marker date="1504143263765" expanded="true" signature="7536:7602" ph="select * fro... zp_list" />
+                <marker date="1504143263765" expanded="true" signature="7933:8013" ph="insert into zp_list... " />
+                <marker date="1504143263765" expanded="true" signature="7947:8013" ph="insert into ca_list... " />
+                <marker date="1504143263765" expanded="true" signature="8288:8354" ph="select * fro... zp_list" />
+                <marker date="1504143263765" expanded="true" signature="8516:8563" ph="insert into zp_gwzz_fenci... " />
+                <marker date="1504143263765" expanded="true" signature="8748:8795" ph="insert into zp_rzyq_fenci... " />
+                <marker date="1504143263765" expanded="true" signature="8983:9024" ph="insert into zp_flxx... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://H:/code/python/zlzp/zlzp/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <element signature="e#192#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1330">
+              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zp_items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zp/zp_items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.py" pinned="false" current-in-tab="false">
+        <entry file="file://H:/code/python/20170829/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://H:/code/python/20170829/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zbxl</find>
+      <find>type</find>
+      <find>ca_</find>
+      <find>gzjy_id</find>
+      <find>extract_tags</find>
+      <find>pipel</find>
+      <find>zwmc</find>
+      <find>zwlb</find>
+      <find>strong_one</find>
+      <find>天前</find>
+      <find>gsgm</find>
+      <find>公司性质</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>zp_</replace>
+      <replace>fbrq</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zp/spiders/zhaopin.py" />
+        <option value="H:/code/python/rnn/YZMproject/onlyNumber.py" />
+        <option value="$PROJECT_DIR$/zp/pipelines.py" />
+        <option value="$PROJECT_DIR$/zp/items.py" />
+        <option value="H:/code/python/20170829/1.txt" />
+        <option value="H:/code/python/20170829/1.py" />
+        <option value="$PROJECT_DIR$/zp/zp_items.py" />
+        <option value="$PROJECT_DIR$/zp/MysqlPipeline.py" />
+        <option value="$PROJECT_DIR$/zp/MyPipeline.py" />
+        <option value="H:/code/python/zlzp/zlzp/settings.py" />
+        <option value="$PROJECT_DIR$/zp/settings.py" />
+        <option value="$PROJECT_DIR$/zp/spiders/zp2.py" />
+        <option value="$PROJECT_DIR$/zp/MyPipelines.py" />
+        <option value="$PROJECT_DIR$/zp/spiders/zp1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="633" />
+    <option name="y" value="70" />
+    <option name="width" value="1614" />
+    <option name="height" value="1065" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zp" type="462c0819:PsiDirectoryNode" />
+              <item name="zp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zp" type="462c0819:PsiDirectoryNode" />
+              <item name="zp" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20170829" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlzp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlzp" type="462c0819:PsiDirectoryNode" />
+              <item name="zlzp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="H:/code/python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="H:/code/python/20170829" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="20170829" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="H:/code/python/20170829/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="onlyNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="H:/code/python/rnn/YZMproject" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rnn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="H:/code/python/rnn/YZMproject/onlyNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.onlyNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.onlyNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5ebe2f0-f12b-47fb-96dd-8042fac36110" name="Default" comment="" />
+      <created>1503804030225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503804030225</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43336946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://H:/code/python/zlzp/zlzp/pipelines.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="15" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#20#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/zlzp/zlzp/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#192#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/zp_items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/20170829/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/20170829/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/MyPipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1504143263765" expanded="true" signature="3332:3368" ph="select * fro... zp_dd" />
+            <marker date="1504143263765" expanded="true" signature="3543:3576" ph="insert into zp_dd... " />
+            <marker date="1504143263765" expanded="true" signature="3623:3659" ph="select * fro... zp_dd" />
+            <marker date="1504143263765" expanded="true" signature="3797:3837" ph="select * fro... zp_zwmc" />
+            <marker date="1504143263765" expanded="true" signature="4009:4044" ph="insert into zp_zwmc... " />
+            <marker date="1504143263765" expanded="true" signature="4091:4131" ph="select * fro... zp_zwmc" />
+            <marker date="1504143263765" expanded="true" signature="4276:4290" ph="select * fro... ca_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4276:4316" ph="select * fro... zp_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4477:4512" ph="insert into zp_gsmc... " />
+            <marker date="1504143263765" expanded="true" signature="4559:4599" ph="select * fro... zp_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4745:4785" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="4946:4983" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5030:5070" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5215:5232" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="5215:5255" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5416:5453" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5500:5540" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5685:5702" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="5685:5725" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5886:5923" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5970:6010" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="6155:6195" ph="select * fro... zp_gsxz" />
+            <marker date="1504143263765" expanded="true" signature="6356:6393" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="6440:6480" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="6623:6659" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="6812:6847" ph="insert into zp_xl... " />
+            <marker date="1504143263765" expanded="true" signature="6894:6930" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="7070:7087" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="7070:7110" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="7266:7303" ph="insert into zp_gsgm... " />
+            <marker date="1504143263765" expanded="true" signature="7350:7390" ph="select * fro... zp_gsgm" />
+            <marker date="1504143263765" expanded="true" signature="7536:7602" ph="select * fro... zp_list" />
+            <marker date="1504143263765" expanded="true" signature="7933:8013" ph="insert into zp_list... " />
+            <marker date="1504143263765" expanded="true" signature="7947:8013" ph="insert into ca_list... " />
+            <marker date="1504143263765" expanded="true" signature="8288:8354" ph="select * fro... zp_list" />
+            <marker date="1504143263765" expanded="true" signature="8516:8563" ph="insert into zp_gwzz_fenci... " />
+            <marker date="1504143263765" expanded="true" signature="8748:8795" ph="insert into zp_rzyq_fenci... " />
+            <marker date="1504143263765" expanded="true" signature="8983:9024" ph="insert into zp_flxx... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/MyPipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="55" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1504143263765" expanded="true" signature="3332:3368" ph="select * fro... zp_dd" />
+            <marker date="1504143263765" expanded="true" signature="3543:3576" ph="insert into zp_dd... " />
+            <marker date="1504143263765" expanded="true" signature="3623:3659" ph="select * fro... zp_dd" />
+            <marker date="1504143263765" expanded="true" signature="3797:3837" ph="select * fro... zp_zwmc" />
+            <marker date="1504143263765" expanded="true" signature="4009:4044" ph="insert into zp_zwmc... " />
+            <marker date="1504143263765" expanded="true" signature="4091:4131" ph="select * fro... zp_zwmc" />
+            <marker date="1504143263765" expanded="true" signature="4276:4290" ph="select * fro... ca_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4276:4316" ph="select * fro... zp_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4477:4512" ph="insert into zp_gsmc... " />
+            <marker date="1504143263765" expanded="true" signature="4559:4599" ph="select * fro... zp_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4745:4785" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="4946:4983" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5030:5070" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5215:5232" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="5215:5255" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5416:5453" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5500:5540" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5685:5702" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="5685:5725" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5886:5923" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5970:6010" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="6155:6195" ph="select * fro... zp_gsxz" />
+            <marker date="1504143263765" expanded="true" signature="6356:6393" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="6440:6480" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="6623:6659" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="6812:6847" ph="insert into zp_xl... " />
+            <marker date="1504143263765" expanded="true" signature="6894:6930" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="7070:7087" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="7070:7110" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="7266:7303" ph="insert into zp_gsgm... " />
+            <marker date="1504143263765" expanded="true" signature="7350:7390" ph="select * fro... zp_gsgm" />
+            <marker date="1504143263765" expanded="true" signature="7536:7602" ph="select * fro... zp_list" />
+            <marker date="1504143263765" expanded="true" signature="7933:8013" ph="insert into zp_list... " />
+            <marker date="1504143263765" expanded="true" signature="7947:8013" ph="insert into ca_list... " />
+            <marker date="1504143263765" expanded="true" signature="8288:8354" ph="select * fro... zp_list" />
+            <marker date="1504143263765" expanded="true" signature="8516:8563" ph="insert into zp_gwzz_fenci... " />
+            <marker date="1504143263765" expanded="true" signature="8748:8795" ph="insert into zp_rzyq_fenci... " />
+            <marker date="1504143263765" expanded="true" signature="8983:9024" ph="insert into zp_flxx... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zhaopin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/YZMproject/onlyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="205" column="29" lean-forward="false" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="127" column="22" lean-forward="false" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zhaopin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/YZMproject/onlyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="205" column="29" lean-forward="false" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zhaopin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/YZMproject/onlyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="205" column="29" lean-forward="false" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/YZMproject/onlyNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="205" column="29" lean-forward="false" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zhaopin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/rnn/MailProject/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a56ec4c2-0526-4f21-b876-cf73c98f4efa/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/20170829/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/20170829/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/jieba/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/jieba/analyse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/jieba/analyse/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/zlzp/zlzp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="192" column="43" lean-forward="false" selection-start-line="192" selection-start-column="31" selection-end-line="192" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/zp_items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/code/python/zlzp/zlzp/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#192#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#20#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/MyPipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="196" column="17" lean-forward="false" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1504143263765" expanded="true" signature="3332:3368" ph="select * fro... zp_dd" />
+            <marker date="1504143263765" expanded="true" signature="3543:3576" ph="insert into zp_dd... " />
+            <marker date="1504143263765" expanded="true" signature="3623:3659" ph="select * fro... zp_dd" />
+            <marker date="1504143263765" expanded="true" signature="3797:3837" ph="select * fro... zp_zwmc" />
+            <marker date="1504143263765" expanded="true" signature="4009:4044" ph="insert into zp_zwmc... " />
+            <marker date="1504143263765" expanded="true" signature="4091:4131" ph="select * fro... zp_zwmc" />
+            <marker date="1504143263765" expanded="true" signature="4276:4290" ph="select * fro... ca_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4276:4316" ph="select * fro... zp_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4477:4512" ph="insert into zp_gsmc... " />
+            <marker date="1504143263765" expanded="true" signature="4559:4599" ph="select * fro... zp_gsmc" />
+            <marker date="1504143263765" expanded="true" signature="4745:4785" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="4946:4983" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5030:5070" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5215:5232" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="5215:5255" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5416:5453" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5500:5540" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5685:5702" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="5685:5725" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="5886:5923" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="5970:6010" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="6155:6195" ph="select * fro... zp_gsxz" />
+            <marker date="1504143263765" expanded="true" signature="6356:6393" ph="insert into zp_zwlb... " />
+            <marker date="1504143263765" expanded="true" signature="6440:6480" ph="select * fro... zp_zwlb" />
+            <marker date="1504143263765" expanded="true" signature="6623:6659" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="6812:6847" ph="insert into zp_xl... " />
+            <marker date="1504143263765" expanded="true" signature="6894:6930" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="7070:7087" ph="select * fro... zp_g" />
+            <marker date="1504143263765" expanded="true" signature="7070:7110" ph="select * fro... zp_xl" />
+            <marker date="1504143263765" expanded="true" signature="7266:7303" ph="insert into zp_gsgm... " />
+            <marker date="1504143263765" expanded="true" signature="7350:7390" ph="select * fro... zp_gsgm" />
+            <marker date="1504143263765" expanded="true" signature="7536:7602" ph="select * fro... zp_list" />
+            <marker date="1504143263765" expanded="true" signature="7933:8013" ph="insert into zp_list... " />
+            <marker date="1504143263765" expanded="true" signature="7947:8013" ph="insert into ca_list... " />
+            <marker date="1504143263765" expanded="true" signature="8288:8354" ph="select * fro... zp_list" />
+            <marker date="1504143263765" expanded="true" signature="8516:8563" ph="insert into zp_gwzz_fenci... " />
+            <marker date="1504143263765" expanded="true" signature="8748:8795" ph="insert into zp_rzyq_fenci... " />
+            <marker date="1504143263765" expanded="true" signature="8983:9024" ph="insert into zp_flxx... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zp/spiders/zp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="103" column="85" lean-forward="false" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

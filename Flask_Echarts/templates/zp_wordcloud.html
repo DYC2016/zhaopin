@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>福利信息词云</title>
+    <link rel="stylesheet" href="/static/layui/css/layui.css?t=1483944306685" media="all">
+</head>
+<body>
+<button class="layui-btn layuiadmin-btn-list" data-type="batchdel" style="position: absolute;top: 10px;">更新缓存</button>
+<div id="main" style='width: 45%;margin: 0 auto'>
+
+    <img src="/static/image/wordcloud_result_b5.jpg" style="width: 100%" id="wordcloud">
+</div>
+<script src="/static/layui/layui.js?t=1483944306685" charset="utf-8" type="text/javascript"></script>
+<script>
+    layui.use(['jquery', 'layer', 'element'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer;
+        $('.layui-btn.layuiadmin-btn-list').on('click', function () {
+
+            var index = layer.load(3);
+            $.ajax({
+                url: "{{ url_for('zp_get_wordcloud') }}",
+                success: function (data) {
+                    layer.close(index);
+                    if (data == 1) {
+                        $('img').attr('src', '/static/image/wordcloud_result_b5.jpg?' + Math.random())
+                    }
+                    else {
+                        layer.msg('数据异常', {icon: 5, time: 1000});
+                    }
+                }
+            })
+        });
+    });
+</script>
+</body>
+</html>

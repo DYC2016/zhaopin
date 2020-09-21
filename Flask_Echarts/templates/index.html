@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>基于Echarts职位画像项目案例</title>
+	 <link rel="stylesheet" href="/static/layui/css/layui.css?t=1483944306685" media="all">
+	 <style>
+		li 
+		{
+			cursor:pointer;
+		}
+	 </style>
+</head>
+<body>
+<div class="site-tree">
+	<ul class="layui-nav layui-nav-tree layui-nav-side" id="L_demoNav" lay-filter="nav_list">
+		<li class="layui-nav-item layui-nav-itemed" id="index_nav_item">
+			<a data-href="/zwyx/dd_index">地点薪资关系图</a>
+		</li>
+		<li class="layui-nav-item" id="schedule_nav_item">
+			<a data-href="/zwyx/xl_index">学历薪资关系图</a>
+		</li>
+		<li class="layui-nav-item" id="aboutme_nav_item">
+			<a data-href="/zwyx/gsgm_index">公司规模与职位量和薪资关系图</a>
+		</li>
+		<li class="layui-nav-item" id="te_admin_nav_item">
+			<a data-href="/zwyx/gsxz_index">公司性质薪资关系图</a>
+		</li>
+		<li class="layui-nav-item" id="te_vendition_nav_item">
+            <a data-href="/zwyx/zwmc_index">Top10最热职位</a>
+		</li>
+        <li class="layui-nav-item" id="te_vendition_nav_item_top10">
+            <a data-href="/zwyx/zwmc_last_index">Top10最稀缺职位</a>
+        </li>
+		<li class="layui-nav-item" id="system_te_nav_item">
+			<a data-href="/dd/zwmc_index">地点职位数关系图</a>
+		</li>
+		<li class="layui-nav-item" id="te_feedback_nav_item">
+			<a data-href="/dd/gsmc_index">地点公司数关系图</a>
+		</li>
+        <li class="layui-nav-item" id="zwmc_flxx">
+            <a data-href="/zp/wordcloud">福利信息词云</a>
+        </li>
+        <li class="layui-nav-item" id="zwmc_search">
+            <a data-href="/zwmc/search">职位检索</a>
+        </li>
+	</ul>
+</div>
+<div class="site-content">
+	<div class='site-title'>
+		<iframe src="/zwyx/dd_index" width="100%" id="show_iframe" scrolling="no" onload="changeFrameHeight()" frameborder="0"></iframe>
+	</div>
+</div>	
+	<div class="layui-clear"></div>
+    <script src="/static/js/jquery-1.12.0.min.js"  type="text/javascript"></script>
+    <script src="/static/layui/layui.js?t=1483944306685" charset="utf-8" type="text/javascript"></script>
+	<script>
+		layui.link('/static/css/common.css?t='+Math.random());
+		layui.use(['jquery', 'layer','element'], function(){
+			var $ = layui.jquery,
+				layer = layui.layer;
+			layer.msg('欢迎使用北风网智联招聘职位画像系统',{icon: 6,time: 1000 });
+            $(function () {
+                $('a').click(function () {
+                    $('li').removeClass('layui-nav-itemed');
+                    $(this).parent().addClass('layui-nav-itemed');
+                    $("#show_iframe").attr('src', $(this).data('href'))
+                })
+            });
+
+            function changeFrameHeight() {
+                var ifm = document.getElementById("show_iframe");
+                var a = document.getElementsByTagName('a')[0];
+                var dheight = document.documentElement.clientHeight;
+                ifm.height = dheight - a.offsetHeight - 5;
+            }
+
+            window.onresize = function () {
+                changeFrameHeight();
+            };
+        });
+	</script>
+</body>
+</html>

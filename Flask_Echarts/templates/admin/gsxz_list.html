@@ -1,0 +1,119 @@
+{% extends "admin/base.html" %}
+{% block content %}
+    {{ super() }}
+    <div class="layui-fluid">
+        <div class="layui-card">
+            <div class="layui-card-body">
+                <div style="padding-bottom: 10px;">
+                    <button class="layui-btn layuiadmin-btn-list" data-type="batchdel">删除</button>
+                </div>
+                <table id="gsxz-table-list" lay-filter="gsxz-table-list"></table>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+{% block script %}
+    <script>
+        layui.use(['jquery', 'layer', 'element', 'table', 'form'], function () {
+            var $ = layui.jquery, i = layui.view,
+                element = layui.element,
+                layer = layui.layer, table = layui.table, form = layui.form;
+            table.render({
+                elem: "#gsxz-table-list",
+                url: "{{ url_for('admin_get_gsxz') }}",
+                cols: [[{type: "checkbox", fixed: "left"}, {
+                    field: "id",
+                    width: 100,
+                    title: "ID",
+                    sort: true
+                }, {field: "gsxz_name", title: "公司性质", minWidth: 100}, {
+                    title: "操作",
+                    minWidth: 150,
+                    align: "center",
+                    fixed: "right",
+                    toolbar: "#table-content-list"
+                }]],
+                page: 1,
+                limit: 10,
+                limits: [10, 15, 20],
+                text: "对不起，加载出现异常！"
+            });
+            table.on("tool(gsxz-table-list)", function (t) {
+                var n = t.data;
+                "del" === t.event ? layer.confirm("确定删除此记录？", function (e) {
+                    layer.close(e);
+                    $.ajax({
+                        url: "{{ url_for('admin_del_gsxz') }}",
+                        data: {'id': n.id},
+                        success: function (returnData) {
+                            if (returnData.status == 1) {
+                                table.reload('gsxz-table-list');
+                                layer.msg('已删除');
+                                t.del()
+                            }
+                            else {
+                                layer.msg(returnData.info);
+                            }
+                        }
+                    });
+                }) : "edit" === t.event && layer.open({
+                    type: 2,
+                    title: "编辑记录",
+                    shadeClose: true,
+                    shade: 0.8,
+                    area: ["550px", "200px"],
+                    id: "LAY-popup-content-edit",
+                    content: "/admin/edit/gsxz/" + n.id,
+                    end: function (index, layero) {
+                        table.reload('gsxz-table-list');
+                    }
+                })
+            });
+
+            var active = {
+                batchdel: function () {
+                    var checkStatus = table.checkStatus('gsxz-table-list')
+                        , checkData = checkStatus.data; //得到选中的数据
+
+                    if (checkData.length === 0) {
+                        return layer.msg('请选择数据');
+                    }
+
+                    layer.confirm('确定删除吗？', function (index) {
+                        var ids_array = [];
+                        $.each(checkData, function (index, item) {
+                            ids_array.push(item.id)
+                        });
+                        //执行 Ajax 后重载
+                        $.ajax({
+                            url: '{{ url_for("admin_del_gsxz") }}',
+                            data: {'ids': ids_array},
+                            success: function (returnData) {
+                                if (returnData.status == 1) {
+                                    table.reload('gsxz-table-list');
+                                    layer.msg('已删除');
+                                }
+                                else {
+                                    layer.msg(returnData.info);
+                                }
+                            }
+                        });
+                    });
+                }
+            };
+
+            $('.layui-btn.layuiadmin-btn-list').on('click', function () {
+                var type = $(this).data('type');
+                active[type] ? active[type].call(this) : '';
+            });
+            $('.layui-nav-item').removeClass('layui-this');
+            $('#admin_gsxz').addClass('layui-this');
+        });
+
+    </script>
+    <script type="text/html" id="table-content-list">
+        <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>
+        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>
+    </script>
+{% endblock %}
